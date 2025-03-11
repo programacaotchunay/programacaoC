@@ -1,17 +1,24 @@
 #include <stdio.h>
     int main(){
 
-        int numero1 =1;
-        printf("Antes incremento: %d\n", numero1);
+        int nota1, nota2, nota3;
+        int media;
 
-        numero1++;
-        printf("Apos incremento: %d\n", numero1);
+        printf("***Programa de Cálculo de Média ***\n);
 
-        numero1--;
-        printf("Apos decremento: %d\n", numero1);
+        printf("Digite sua primeira nota: \n);
+        scanf("%d", &nota1);
 
+        printf("Digite sua segunda nota: \n);
+        scanf("%d", &nota2);
 
-    
+        printf("Digite sua terceira nota: \n);
+        scanf("%d", &nota3);")
+
+        media = (nota1 + nota2 + nota3) /3
+        
+        printf("A média é: %d");
+
 
 
     }
